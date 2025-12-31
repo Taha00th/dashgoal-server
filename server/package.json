@@ -1,0 +1,24 @@
+{
+    "name": "dashgoal-server",
+    "version": "1.0.0",
+    "description": "Socket.IO server for Dash Goal multiplayer game",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [
+        "socket.io",
+        "game",
+        "multiplayer"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.18.2",
+        "socket.io": "^4.6.1",
+        "cors": "^2.8.5"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    }
+}
